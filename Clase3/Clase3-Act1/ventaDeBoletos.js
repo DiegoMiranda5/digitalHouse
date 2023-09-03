@@ -27,7 +27,7 @@ isSocio = false;
 fechaDePartido = "07/10/2023";
 horaDelPartido = "10:30";
 numSilla = 56;
-precioDelBoleto = 7500;
+precioDelBoleto = 7500.56;
 
 console.log(
     `Nombre y apellido: ${nombre}, ${apellido}\n`+
