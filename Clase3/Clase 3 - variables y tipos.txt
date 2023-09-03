@@ -1,0 +1,72 @@
+    Una variable es un espacio de memoria en la computadora
+donde podemos almacenar distintos tipos de datos. 
+    En javaScrip existen tres tipos de variables:
+
+        - var: es un tipo de variable que es declarada de manera global esto quiere decir 
+        que ignora los bloques de codigo.
+
+        - let: es un tipo de variable que solo es accesible en el bloque en el que fue declarada.
+
+        - const: es un tipo de variable que cuando su valor es definido este ya no se puede volver a modificar.
+
+    una variable puede almacenar diferentes tipos de datos como por ejemplo:
+    
+        ---------------------------------------------------------------------------
+        | Tipo de dato |                                                          | 
+        ---------------------------------------------------------------------------
+        |    Number    | numeros enteros o decimales                              |
+        |    String    | caracteres y Cadenas de texto                            |
+        |    boolean   | Verdadero o falso                                        |
+        |    Array     | Coleccion de datos, que estan ordenados por un indice    |
+        |    Objetos   | Coleccion de datos asociados a una clave y un valor      |
+        ---------------------------------------------------------------------------
+
+    Operadores aritmaticos:
+        nos permiten hacer operaiones matematicas, devuleven el resultado de la operacion:
+        
+        suma:
+            10 + 15 = 25 
+        resta:
+            10 - 15 = 5 
+        multiplicacion:
+            10 * 15 = 150 
+        division:
+            10 / 15 = 0.666
+        resto:
+            10 % 15 = 10
+        
+        operaciones de incremento y decremento
+            i++ -> realiza la operacion de i = i + 1
+            i-- -> realiza la operacion de i = i + 1
+
+    Operadores de comparacion:
+        nos permiten hacer operaciones logicas:
+        
+        comparacion simple
+            //comprueba solamente el valor
+            let x, y;
+            x = 10;
+            y = "10";
+
+            x == y -> true -> comprueba si los valores almacenados en la variable son iguales
+            x != y -> false -> comprueba si los valores almacenados en la variable son distintos
+
+        comparacion estricta
+            //comprueba el valor y el tipo de dato
+            let x, y;
+            x = 10;
+            y = "10";
+
+            x === y -> false -> comprueba si los valores almacenados en la variable y el tipo de datos coninciden 
+            x !== y -> true -> comprueba si los valores almacenados en la variable y el tipo de dato son distintos
+
+        mas formas de comparacion
+            let x, y, r;
+            x = 10;
+            y = 10;
+            r = 15;
+
+            x < y -> false
+            r > x -> true
+            x >= y -> true
+            r <= x -> false
