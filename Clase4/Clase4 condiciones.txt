@@ -25,3 +25,16 @@ hace falta escribir la palabra if ni la palabra else.
 
 	estructura basica
 		condicion ? expresion verdadera : expresion falsa -> la expresion falsa es obligatoria
+
+El switch nos propone una sintaxis más legible para los casos en los que queremos evaluar muchas 
+posibilidades de un solo valor diferentes casos.
+
+
+	switch(//Exprecion a evaluar){
+		valor1:
+			break; //Evita que se ejecute el proximo bloque
+		valor2:
+			break;
+		valor3:
+			break;
+	
