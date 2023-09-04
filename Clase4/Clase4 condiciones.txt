@@ -1,0 +1,27 @@
+las condiciones nos permiten realizar difrerentes acciones segun el resultado de las evaluaciones de las condiciones
+
+Condicional simple
+	Version mas basica del IF establece una condicion y un bloque de codigo
+a ejecutar en caso de que sea verdadera
+
+	if(//Condicion a evaluar){
+		//Bloque de codigo
+	}
+
+Condicional con bloque else
+	Igual al ejemplo anterior pero agregando un bloque de codigo que se ejecutara
+en caso de que la condicion sea falsa.
+
+	if(//condicion a evaluar){
+		//bloque de codigo que se ejecutara si la condicion es verdadera
+	}else{
+		//bloque de codigo que se ejecutara si la condicion es falsa
+	}
+
+if ternario:
+	version redusida del if, que se escribe de forma horizontal, tiene el mismo flujo
+(si esta condición es verdadera hacer esto, si no, hacer esto otro), pero en este caso no
+hace falta escribir la palabra if ni la palabra else.
+
+	estructura basica
+		condicion ? expresion verdadera : expresion falsa -> la expresion falsa es obligatoria
